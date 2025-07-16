@@ -4,4 +4,10 @@ margin: 0;
 box-sizing: border-box;
 }
 
-
+.navbar-nav .nav-item .nav-link:hover {
+    background-color: red;
+    
+}
+.navbar-nav .nav-item .nav-link{
+transition: all 0.3s ease;
+}
