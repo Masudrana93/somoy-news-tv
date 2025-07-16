@@ -4,10 +4,28 @@ margin: 0;
 box-sizing: border-box;
 }
 
+/* Main navbar css  */
 .navbar-nav .nav-item .nav-link:hover {
     background-color: red;
     
 }
 .navbar-nav .nav-item .nav-link{
 transition: all 0.3s ease;
+}
+
+/* Bottom first menubar css  */
+.bottom-first-menubar li a{
+    transition: all 0.3s ease;
+}
+.bottom-first-menubar li a:hover{
+    background-color: lightgrey;
+    
+}
+.bottom-first-menubar li{
+    color: gray;
+    
+}
+.bottom-first-menubar li:first-child{
+    list-style: none;
+   
 }
