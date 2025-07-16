@@ -3,7 +3,7 @@ padding: 0;
 margin: 0;
 box-sizing: border-box;
 }
-
+/* --------------Header CSS Start --------------- */
 /* Main navbar css  */
 .navbar-nav .nav-item .nav-link:hover {
     background-color: red;
@@ -12,7 +12,9 @@ box-sizing: border-box;
 .navbar-nav .nav-item .nav-link{
 transition: all 0.3s ease;
 }
+/* --------------Header CSS End ---------------- */
 
+/* --------------Footer CSS Start -------------- */
 /* Bottom first menubar css  */
 .bottom-first-menubar li a{
     transition: all 0.3s ease;
@@ -23,9 +25,43 @@ transition: all 0.3s ease;
 }
 .bottom-first-menubar li{
     color: gray;
-    
+
 }
 .bottom-first-menubar li:first-child{
     list-style: none;
    
 }
+
+/* social icon css  */
+.social-icon-hover li a{
+    padding: 10px 13px;
+    border-radius: 50%;
+    color: black;
+    font-size:20px ;
+    transition: all 0.3s ease;
+}
+.social-icon-hover li a:hover{
+    background-color:lightgrey ;
+}
+
+/* Footer Last part CSS  */
+
+.footer-last-menubar li a{
+    transition: all 0.3s ease;
+}
+.footer-last-menubar li a:hover{
+    background-color: lightgrey;
+    
+}
+.footer-last-menubar li{
+    color: gray;
+
+}
+.footer-last-menubar li:first-child{
+    list-style: none;
+   
+}
+
+
+
+/* -------------Footer CSS End -------------- */
