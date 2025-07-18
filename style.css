@@ -17,6 +17,7 @@ box-sizing: border-box;
 
 body {
   font-family: 'SolaimanLipiNormal', sans-serif;
+  line-height: 150%;
 }
 
 
@@ -130,3 +131,6 @@ color: red ;
     height: 100%;
 }
 
+.font-size-14px {
+    font-size: 14px;
+}
