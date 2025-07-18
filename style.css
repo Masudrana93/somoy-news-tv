@@ -86,7 +86,7 @@ color: red ;
 }
 
 .hover-image {
-  position: absolute;
+  /* position: absolute; */
   top: 0;
   left: 0;
   width: 100%;
@@ -101,8 +101,29 @@ color: red ;
   opacity: 1;
 }
 .hover-card .card-body {
-  position: relative;
+  /* position: relative; */
   /* z-index: 2; */
 }
+
+/* Bangladesh  */
+
+.photo-hover a img:hover {
+    transform: scale(1.5);
+}
+
+.photo-hover a img {
+    transition: all 0.5s ease;
+}
+
+.heading-hover a{
+    transition: all 0.3s ease;
+}
+.heading-hover a:hover {
+    color: red !important;
+}
+.underline-hover a:hover {
+    text-decoration: underline red !important;
+}
+
 
 
